@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radiologia Aplicada - Beta</title>
+    <!-- Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Header -->
+    <header class="bg-white shadow-sm">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex">
+                    <div class="flex-shrink-0 flex items-center">
+                        <h1 class="text-2xl font-bold text-gray-900">Radiologia Aplicada</h1>
+                    </div>
+                </div>
+                <div class="flex items-center">
+                    <button class="p-2 rounded-md text-gray-600 hover:text-gray-900 focus:outline-none">
+                        <i class="fas fa-search"></i>
+                    </button>
+                    <button class="ml-4 p-2 rounded-md text-gray-600 hover:text-gray-900 focus:outline-none">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <!-- Categories Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <!-- Crânio -->
+            <div class="bg-white rounded-lg shadow p-6 hover:shadow-lg transition-shadow">
+                <div class="flex items-center">
+                    <i class="fas fa-skull text-3xl text-blue-600"></i>
+                    <h2 class="ml-4 text-xl font-semibold text-gray-900">Cranio</h2>
+                </div>
+                <p class="mt-4 text-gray-600">Posicionamentos radiológicos para exames do crânio e face.</p>
+                <button class="mt-4 w-full bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700 transition-colors">
+                    Ver Posicionamentos
+                </button>
+            </div>
+
+            <!-- Coluna Vertebral -->
+            <div class="bg-white rounded-lg shadow p-6 hover:shadow-lg transition-shadow">
+                <div class="flex items-center">
+                    <i class="fas fa-spine text-3xl text-green-600"></i>
+                    <h2 class="ml-4 text-xl font-semibold text-gray-900">Coluna</h2>
+                </div>
+                <p class="mt-4 text-gray-600">Técnicas de posicionamento para exames da coluna vertebral.</p>
+                <button class="mt-4 w-full bg-green-600 text-white py-2 px-4 rounded-md hover:bg-green-700 transition-colors">
+                    Ver Posicionamentos
+                </button>
+            </div>
+
+            <!-- Tórax -->
+            <div class="bg-white rounded-lg shadow p-6 hover:shadow-lg transition-shadow">
+                <div class="flex items-center">
+                    <i class="fas fa-lungs text-3xl text-red-600"></i>
+                    <h2 class="ml-4 text-xl font-semibold text-gray-900">Torax</h2>
+                </div>
+                <p class="mt-4 text-gray-600">Posicionamentos para radiografias do tórax e estruturas associadas.</p>
+                <button class="mt-4 w-full bg-red-600 text-white py-2 px-4 rounded-md hover:bg-red-700 transition-colors">
+                    Ver Posicionamentos
+                </button>
+            </div>
+
+            <!-- Membros Superiores -->
+            <div class="bg-white rounded-lg shadow p-6 hover:shadow-lg transition-shadow">
+                <div class="flex items-center">
+                    <i class="fas fa-hand-paper text-3xl text-purple-600"></i>
+                    <h2 class="ml-4 text-xl font-semibold text-gray-900">Membros Superiores</h2>
+                </div>
+                <p class="mt-4 text-gray-600">Técnicas para radiografias dos membros superiores.</p>
+                <button class="mt-4 w-full bg-purple-600 text-white py-2 px-4 rounded-md hover:bg-purple-700 transition-colors">
+                    Ver Posicionamentos
+                </button>
+            </div>
+
+            <!-- Membros Inferiores -->
+            <div class="bg-white rounded-lg shadow p-6 hover:shadow-lg transition-shadow">
+                <div class="flex items-center">
+                    <i class="fas fa-shoe-prints text-3xl text-yellow-600"></i>
+                    <h2 class="ml-4 text-xl font-semibold text-gray-900">Membros Inferiores</h2>
+                </div>
+                <p class="mt-4 text-gray-600">Posicionamentos para exames dos membros inferiores.</p>
+                <button class="mt-4 w-full bg-yellow-600 text-white py-2 px-4 rounded-md hover:bg-yellow-700 transition-colors">
+                    Ver Posicionamentos
+                </button>
+            </div>
+
+            <!-- Pelve -->
+            <div class="bg-white rounded-lg shadow p-6 hover:shadow-lg transition-shadow">
+                <div class="flex items-center">
+                    <i class="fas fa-bone text-3xl text-pink-600"></i>
+                    <h2 class="ml-4 text-xl font-semibold text-gray-900">Pelve</h2>
+                </div>
+                <p class="mt-4 text-gray-600">Técnicas de posicionamento para exames da pelve.</p>
+                <button class="mt-4 w-full bg-pink-600 text-white py-2 px-4 rounded-md hover:bg-pink-700 transition-colors">
+                    Ver Posicionamentos
+                </button>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-white border-t mt-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+            <p class="text-center text-gray-500">© 2024 Radiologia Aplicada - Versão Beta</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="app.js"></script>
+</body>
+</html>
